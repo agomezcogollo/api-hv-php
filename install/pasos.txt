@@ -1,0 +1,24 @@
+0 - Correr Base de datos --> php artisan migrate
+1 - php artisan passport:install
+2 - php artisan optimize limpiar cache php artisan cache:clear
+3 -  php artisan passport:install 
+4 - php artisan passport:keys - generar claves
+5 - Configurar config - auth
+
+error antes 
+
+php artisan cache:clear
+php artisan route:cache
+php artisan config:cache
+composer dump-autoload -o
+
+
+URL Example
+POST
+http://127.0.0.1:8000/api/v1/profileall
+Content-Type	application/x-www-form-urlencoded
+Authorization	Bearer eyJ0eXAiOiJKV1QiLCJhbGciOi
+
+Online db
+user: hystebgs
+pass: MYgh8kqwQ/WW5}U#
