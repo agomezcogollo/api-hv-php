@@ -26,5 +26,8 @@ Route::group(['prefix' => 'v1'], function () {
         Route::get('logout', 'AuthController@logout');
         Route::get('user', 'AuthController@user');
         Route::post('profileall', 'ProfileController@getProfileAll');
+        Route::post('experience', 'ExperienceController@getExperienceAll');
+        Route::post('education', 'EducationController@getEducationAll');
+        Route::post('skill', 'SkillController@getSkillAll');
     });
 });
